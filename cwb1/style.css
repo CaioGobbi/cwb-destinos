@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: aqua;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: white;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Arial', sans-serif;
+    color: darkgrey;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.conteudo-principal-menu {
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+}
+
